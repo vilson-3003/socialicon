@@ -1,0 +1,214 @@
+
+<html dir="ltr">
+<head>
+    <title>Welcome | Social Icon</title>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+window.onbeforeunload = function(){
+    var st = "0";
+    $.ajax({
+        type: "POST",
+        url: "includes/userStatus.php",
+        data: {'st':st}
+    });
+}
+</script>
+<link rel='shortcut icon' type='image/x-icon' href='imgs/favicon.ico' />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome-4.5.0/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.form.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/code.js"></script>
+<script type="text/javascript" src="js/jquery.maxlength.js"></script>
+<div id="lightboxImg_myModal" class="lightboxImg_modal" onclick="lightboxClose()">
+  <span class="lightboxImgClose" onclick="lightboxClose()">&times;</span>
+  <img class="lightboxImg_modal_content" id="lightboxImg_photo">
+</div>    <style type="text/css">
+        .modal_developer1
+        {
+            height: 170px;
+            width: 130px;
+
+        }
+        .modal-title
+        {
+            background:#00FFFF;    
+        }
+
+
+
+    </style>
+</head>
+    <body class="login_signup_body">
+    <!--============[ Nav bar ]============-->
+        <div class="login_signup_navbar">
+                <a href="index"><img src="imgs/socialicon.jpeg" style="height: 80px;width: 80px;"></a>
+                <a href="index.html" class="login_signup_navbarLinks" style="font-size: 20px;">Help</a>
+               
+                <a href="privacy_policy.php" class="login_signup_navbarLinks" style="font-size: 20px;">Privacy policy</a>
+                <a href="#" class="login_signup_navbarLinks" style="font-size: 20px;">
+
+                    <button type="button" data-toggle="modal" data-target="#myModal" style="background: none;border: none;">Developers</button>
+
+<!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+    <!-- Modal content-->
+                        <div class="modal-content">
+                           <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal">&times;</button>
+                             <center><h4 class="modal-title">OUR TEAM</h4></center>
+                           </div>
+                           <div class="modal-body">
+                              <div class="modal-box">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-6">
+                                            <img class="modal_developer1" src="imgs/IMG-20180127-WA0051.jpg" >
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Abhishek Kumar</p><hr>
+                                            <p>COMPUTER SCIENCE DEPARTMENT</p><hr>
+                                            <p>Roll no. 161011</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <hr>
+                              <div class="modal-box">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-6">
+                                            <img class="modal_developer1" src="imgs/priya.jpg" >
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Priya Kumari</p><hr>
+                                            <p>COMPUTER SCIENCE DEPARTMENT</p><hr>
+                                            <p>Roll no. 161019</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                    
+                              </div>
+                              <hr>
+                              <div class="modal-box">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-6">
+                                            <img class="modal_developer1" src="imgs/romi.jpg" >
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Vilson Kumar</p><hr>
+                                            <p>COMPUTER SCIENCE DEPARTMENT</p><hr>
+                                            <p>Roll no. 161020</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                    
+                              </div>
+                              <hr>
+                              <div class="modal-box">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-6">
+                                            <img class="modal_developer1" src="imgs/bholi.jpeg"  >
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Anjana Bhartii</p><hr>
+                                            <p>COMPUTER SCIENCE DEPARTMENT</p><hr>
+                                            <p>Roll no. 161024</p>
+                                        </div>
+                                    </div>
+                                  </div>
+                    
+                              </div>
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                </a>
+                
+        </div>
+        <!--============[ main contains ]============-->
+        <div class="privacy_content container">
+            <center><h1 style="border-bottom: 1px solid black;">Help</h1></center><br><br>
+            <p style="font-size: 20px;"> </p>
+
+            <center><h1 style="color: #00ffff;">These are the simple steps through which you can use our creative website in a simple manner!.</h1></center>
+            <p style="font-size: 20px;"></p>
+            <br>
+            <br>
+            <hr style="border: 1px solid #000;">
+            <h3 style="font-size: 17px;border-left: 5px solid #000;height: 40px;"><b> Steps<b></h3>
+                <ul style="list-style-type:disc;">
+                    <li style="font-size: 17px;">First simply an individual have to signup to the website by filling the required data. Such as Full name , username, email , password etc. </li>
+                    <br><br>
+                    <li style="font-size: 17px;">When the signup process is completed, now you are directed to our dashboard where you can add your details such as profile picture, cover photo, about you, bio and so on.</li>
+                    <br><br>
+                    <li style="font-size: 17px;"><b>When all these process are completed now you can simply search your friend or family on the top of the search bar by entering his/her username or email id. When you find the correct result then you have option to follow your beoved one! </li>
+                   <br><br>
+                   <li style="font-size: 17px;"><b>Now you can uplaod your post such as pictures, status to your profile and your follower list can now view it.</li>   
+                   <br><br>
+                   <li style="font-size: 17px;"><b>You can also set privacy options on your posts.. These are only me option, followers option and last one is to everyone! where your person can view your post without following you!</li>    
+                    <br><br>
+                    <li style="font-size: 17px;"><b>Now login to the website by entering the correct data. If the data is correct then you will succesffully redirected to the home. Otherwise it will show the respected error !</li>    
+                    <br><br> 
+                     <li style="font-size: 17px;"><b>If the error will continue for 5 times means if you insert an invalid detail 5 times then you will distracted to login for 15 mint. So simply enter the correct details for login</li>    
+                    <br><br> 
+                     <li style="font-size: 17px;"><b>Now enjoy Socialicon with your loved one by posting and sharing contents!</li>    
+                    <br><br> 
+
+                    
+                </ul>
+            
+        </div>
+        
+        
+
+<script type="text/javascript">
+function loginUser(){
+var username = document.getElementById("un").value;
+var password = document.getElementById("pd").value;
+$.ajax({
+type:'POST',
+url:'includes/login_signup_codes.php',
+data:{'req':'login_code','un':username,'pd':password},
+beforeSend:function(){
+$('.login_signup_btn1').hide();
+$('#login_wait').html("Loading...");
+},
+success:function(data){
+$('#login_wait').html(data);
+if (data == "Welcome...") {
+    $('#login_wait').html("<p class='alertGreen'>Welcome..</p>");
+    setTimeout(' window.location.href = "home"; ',2000);
+}else{
+    $('.login_signup_btn1').show();
+}
+},
+error:function(err){
+alert(err);
+}
+});
+}
+$('#loginFunCode').click(function(){
+loginUser();
+});
+$(".login_signup_textfield").keypress( function (e) {
+    if (e.keyCode == 13) {
+        loginUser();
+    }
+});
+</script>
+</body>
+</html>
